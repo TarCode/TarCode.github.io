@@ -36,6 +36,8 @@
       }
       #logo {
         font-weight: bold;
+        padding-right: 10px;
+        padding-top: 3px;
       }
       #message {
         font-size: 27px;
@@ -58,7 +60,10 @@
       .collection-item > .container{
         margin-left: 5px;
       }
-  
+      
+      .right {
+        text-align: right;
+      }
 
       .work-row {
         position: relative;
@@ -89,26 +94,9 @@
     <header class="navbar-fixed">
       <nav class="white">
         <div class="nav-wrapper">
-          <a href="#" id="logo" class="brand-logo center">
-            <span class="grey-text text-darken-4">T -\ R C O D E</span>
-          </a>
-          <a href="#" data-activates="burger" class="button-collapse"><i class="grey-text text-darken-4 material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a class="grey-text text-darken-4" href="#about">
-              About
-            </a></li>
-            <li><a class="grey-text text-darken-4" href="#work">
-              Work
-            </a></li>
-          </ul>
-          <ul class="side-nav" id="burger">
-            <li><a class="grey-text text-darken-4" href="#about">
-              About
-            </a></li>
-            <li><a class="grey-text text-darken-4" href="#work">
-              Work
-            </a></li>
-          </ul>
+            <a href="#" id="logo" class="brand-logo right">
+              <span class="grey-text text-darken-4">T -\ R C O D E</span>
+            </a>
         </div>
       </nav>
     </header>
@@ -125,78 +113,69 @@
             <h1 class="xlText thin">Hello.</h1>
             <h2>I'm Tarcode.</h2>
             <br/>
-            <p class="flow-text">Entity living in Cape Town, South Africa. 
-              <br/> Freelance Full Stack Developer
-              <br/> ( Web | iOS | Android | VR )
+            <p class="flow-text">Human being in Cape Town, South Africa. 
+              <br/> Full Stack Engineer at <a href='https://rehive.com' target="_blank">Rehive</a>
               <br/> Always Learning. Always Curious.
-              <br/> <br/>
-              <span id="message">
-                Need help with a project or need some info?
-              </span>
+              <br/>
             </p>
           </div>
-          <div class="col s12 m6">
-            <a class="actionBtn btn btn-large white black-text btn-block" href="mailto:tarcode33@gmail.com">👾 Contact 👽</a>
-          </div>
-          <div class="col s12 m6">
-            <a class="actionBtn btn btn-large white black-text btn-block" href="https://tarcode.github.io/blog/">🗣 Blog 🤓</a>
-          </div>
         </div>
       </div>
-      <div id="work" class="black-text">
-        <br/>
-        <div class="container center">
-          <h3 class="thin">My Toolbox</h3>
-          <p class="flow-text">
-            My favourite tech at the moment:
-          </p>
-          <div class="row">
-            <div class='col s2'>
-              <img src="img/tech-svg/nodejs-icon.svg" class='responsive-img' />
-            </div>
-            <div class='col s2'>
-              <img src="img/tech-svg/meteor-icon.svg" class='responsive-img' />
-            </div>
-            <div class='col s2'>
-              <img src="img/tech-svg/react.svg" class='responsive-img' />
-            </div>
-            <div class='col s2'>
-              <img src="img/tech-svg/redux.svg" class='responsive-img' />
-            </div>
-            <div class='col s4'>
-              <br class="hide-on-med-and-down"/>
-              <img src="img/tech-svg/mongodb.svg" class='responsive-img' />
-            </div>
+      <div class="section container row">
+          <br/>
+          <h3 class="center">Some stuff I built</h3>
+          <div class="col s12 m6">
+            <a class="actionBtn btn btn-large white black-text btn-block" href="https://retrowallet.co.za" target="_blank">
+              Retro Wallet 
+            </a>
+            <br/>
+            <span>A web wallet for Stellar Lumens (Testnet)</span>
           </div>
+          <div class="col s12 m6">
+            <a class="actionBtn btn btn-large white black-text btn-block" href="https://zenpay.machinelf.co.za" target="_blank">
+              Zenpay 
+            </a>
+            <br/>
+            <span>Easily send payment requests (Sandbox mode)</span>
+          </div>
+          <br/>
         </div>
-  
-        <br />
-      </div>
+        <div class="section container row">
+          <br/>
+          <h3 class="center">Find me on the internetz</h3>
+          <div class="col s12 m6">
+            <a class="actionBtn btn btn-large white black-text btn-block" href="mailto:tarcode33@gmail.com">Contact</a>
+          </div>
+          <div class="col s12 m6">
+            <a class="actionBtn btn btn-large white black-text btn-block" href="https://tarcode.github.io/blog/">Blog</a>
+          </div>
+          <div class="col s12 m4">
+              <a class="actionBtn btn btn-large white black-text btn-block" target="_blank" href="https://www.linkedin.com/in/taariq-isaacs-4b2052b8/">LinkedIn</a>
+            </div>
+            <div class="col s12 m4">
+                <a class="actionBtn btn btn-large white black-text btn-block" target="_blank" href="https://github.com/tarcode">GitHub</a>
+            </div>
+            <div class="col s12 m4">
+                <a class="actionBtn btn btn-large white black-text btn-block" target="_blank" href="https://twitter.com/@tarcode33">Twitter</a>
+            </div>
+        </div>
     </main>
     <footer id="contact" class="page-footer grey lighten-4">
       <div class="container">
         <div class="row">
-          <div class="col s8">
+          <div class="col s6">
             <h4 class="thin grey-text text-darken-4">
               TarCode
               <br/>
               <small>(Taariq Isaacs)</small>
             </h4>
-            <p class="flow-text grey-text text-darken-4">
+          </div>
+          <div class="col s6">
+            <p class="flow-text grey-text text-darken-4 right">
               +27 64 900 9560
               <br/>
               tarcode33@gmail.com
-              <br />
-              <a class="grey-text text-darken-4" target="_blank" href="https://www.linkedin.com/in/taariq-isaacs-4b2052b8/">LinkedIn</a>
-            </p>
-          </div>
-          <div class="col s4 center">
-            <br/>
-            <a href="https://github.com/tarcode" target="_blank">
-              <img class="responsive-img" src="./img/github.png" />
-            </a>
-            <p class="flow-text">
-              My Github Profile
+              <br/>
             </p>
           </div>
         </div>
@@ -204,7 +183,7 @@
       <div class="footer-copyright">
         <div class="container grey-text text-darken-4">
         © 2017 TarCode
-        <span class="right">Image courtesy of my face</span>
+        <span class="right">Image courtesy of me</span>
         </div>
       </div>
     </footer>
