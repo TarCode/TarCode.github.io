@@ -1,174 +1,178 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="description" content="">
-    <meta name="author" content="tarcode">
-    <title>Tarcode</title>
-    <link rel="shortcut icon" href="./img/logo.png">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Oswald" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-    <script>
-       $(document).ready(function() {
-         $(".button-collapse").sideNav({
-           closeOnClick: true,
-           menuWidth: 100
-         });
-       })
-    </script>
-    <style>
-      body {
-        font-family: 'Josefin Sans', sans-serif;
-        background-color: #FAFAFA;
-      }
-      .xlText {
-        font-size: 80px;
-      }
-      .actionBtn {
-        vertical-align: middle;
-        font-size: 16px;
-        margin-top: 10px;
-      }
-      #logo {
-        font-weight: bold;
-        padding-right: 10px;
-        padding-top: 3px;
-      }
-      #message {
-        font-size: 27px;
-      }
-      h1, h2, h3, h4, h5 {
-        font-family: 'Oswald', sans-serif;
-      }
-      #particles-js {
-        position: absolute;
-        z-index: -100;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-      }
-      #me {
-        position: relative;
-        z-index: 2;
-      }
-      .collection-item > .container{
-        margin-left: 5px;
-      }
-      
-      .right {
-        text-align: right;
-      }
+<!DOCTYPE HTML>
+<!--
+	Ethereal by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Tarcode</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="./assets/css/main.css" />
+		<link rel="shortcut icon" href="./images/img/logo.png">
+		<noscript><link rel="stylesheet" href="./assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-      .work-row {
-        position: relative;
-      }
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
 
-      .work-row:hover .work-box {
-        visibility: visible;
-      }
+				<!-- Wrapper -->
+					<div id="wrapper">
 
-      .work-box {
-        z-index: 101;
-        position: absolute; 
-        visibility: hidden;
-        top: 0; left: 0; bottom: 0; right: 0;
-        background-color: #000;
-        opacity: 0.9;
-        text-align: center;
-        padding: 40px;
-        font-weight: bold;
-        font-size: 22px;
-        color: #fff;
-        vertical-align: middle;
-      }
+						<!-- Panel (Banner) -->
+							<section class="panel banner right">
+								<div class="content color0 span-3-75">
+									<h1 class="major">Taariq Isaacs</h1>
+									<p>
+										Software developer <strong>from Cape Town.</strong>
+									</p>
+									<!-- <ul class="actions">
+										<li><a href="#first" class="button primary color1 circle icon solid fa-angle-right">Next</a></li>
+									</ul> -->
+								</div>
+								<div class="image filtered span-1-75" data-position="25% 25%">
+									<img src="./images/img/tar.jpg" alt="" />
+								</div>
+							</section>
 
-    </style>
-  </head>
-  <body>
-    <header class="navbar-fixed">
-      <nav class="white">
-        <div class="nav-wrapper">
-            <a href="#" id="logo" class="brand-logo right">
-              <span class="grey-text text-darken-4">T -\ R C O D E</span>
-            </a>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <div id="particles-js"></div>
-      <div id="about" class="section grey-text text-darken-4">
-        <div class="row center">
-          <div class="col s12">
-            <img class="responsive-img circle" src="img/img.png">
-          </div>
-        </div>
-        <div id="me" class="row container center">
-          <div class="col s12">
-            <h1 class="xlText thin">Hello.</h1>
-            <h2>I'm Tarcode.</h2>
-            <br/>
-            <p class="flow-text">Human being in Cape Town, South Africa. 
-              <br/> Founder and engineer at <a href='https://machinelf.co.za' target="_blank">MACHINELF</a>
-              <br/> Always Learning. Always Curious.
-              <br/>
-            </p>
-          </div>
-        </div>
-      </div>
-        <div class="section container row">
-          <br/>
-          <h3 class="center">Find me on the internetz</h3>
-          <div class="col s12 m6">
-            <a class="actionBtn btn btn-large white black-text btn-block" href="mailto:tarcode33@gmail.com">Contact</a>
-          </div>
-          <div class="col s12 m6">
-            <a class="actionBtn btn btn-large white black-text btn-block" href="https://tarcode.github.io/blog/">Blog</a>
-          </div>
-          <div class="col s12 m4">
-              <a class="actionBtn btn btn-large white black-text btn-block" target="_blank" href="https://www.linkedin.com/in/taariq-isaacs-4b2052b8/">LinkedIn</a>
-            </div>
-            <div class="col s12 m4">
-                <a class="actionBtn btn btn-large white black-text btn-block" target="_blank" href="https://github.com/tarcode">GitHub</a>
-            </div>
-            <div class="col s12 m4">
-                <a class="actionBtn btn btn-large white black-text btn-block" target="_blank" href="https://twitter.com/@tarcode33">Twitter</a>
-            </div>
-        </div>
-    </main>
-    <footer id="contact" class="page-footer grey lighten-4">
-      <div class="container">
-        <div class="row">
-          <div class="col s6">
-            <h4 class="thin grey-text text-darken-4">
-              TarCode
-              <br/>
-              <small>(Taariq Isaacs)</small>
-            </h4>
-          </div>
-          <div class="col s6">
-            <p class="flow-text grey-text text-darken-4 right">
-              +27 64 900 9560
-              <br/>
-              tarcode33@gmail.com
-              <br/>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="footer-copyright">
-        <div class="container grey-text text-darken-4">
-        © 2019 TarCode
-        <span class="right">Image courtesy of me</span>
-        </div>
-      </div>
-    </footer>
-    <script src="./js/particles.min.js"></script>
-    <script src="./js/app.js"></script>
-  </body>
+						<!-- Panel -->
+							<section class="panel color1">
+								<div class="intro joined">
+									<h2 class="major">Technology stack</h2>
+									<p>These frameworks, libraries or languages are in my toolbox at the moment</p>
+								</div>
+								<div class="inner">
+									<ul class="grid-icons three connected">
+										<li>
+											<img style="height:90px;width:90px;object-fit:cover;border-radius:100%;" src="./images/img/tech-logos/node.png" alt="" />
+										</li>
+										<li>
+											<img style="height:90px;width:90px;object-fit:cover;border-radius:100%;" src="./images/img/tech-logos/js.png" alt="" />
+										</li>
+										<li>
+											<img style="height:90px;width:90px;object-fit:cover;border-radius:100%;" src="./images/img/tech-logos/mongo.png" alt="" />
+										</li>
+										<li>
+											<img style="height:90px;width:90px;object-fit:cover;border-radius:100%;" src="./images/img/tech-logos/flutter.png" alt="" />
+										</li>
+										<li>
+											<img style="height:90px;width:90px;object-fit:cover;border-radius:100%;" src="./images/img/tech-logos/firebase.png" alt="" />
+										</li>
+										<li>
+											<img style="height:90px;width:90px;object-fit:cover;border-radius:100%;" src="./images/img/tech-logos/react.png" alt="" />
+										</li>
+									</ul>
+								</div>
+							</section>
+
+						<!-- Panel (Spotlight) -->
+
+						<section class="panel spotlight large left">
+								<div class="content span-8">
+										<div>
+											<h3>
+												<a href='https://fonk.capetown/' target="_blank">FONK</a> <br>
+												<small>Present</small>
+											</h3>
+											<b><i>Full stack developer</i></b>
+											<p>
+												Assisting the development team with project management, implementing agile processes and building web and mobile applications. 
+												Also, experimenting with blockchain in between (Highlight: Entered Ethereum Cape Town hackathon and built a decentralized ad platform deployed to all Ethereum testnets).
+												Technologies used include React, Express (NodeJS), MongoDB, Flutter (DART), Solidity.
+											</p>
+										</div>
+	
+										<div>
+											<h3>
+												<a href='https://rehive.com/' target="_blank">Rehive</a> <br>
+												<small>2018</small>
+											</h3>
+											<b><i>Full stack developer</i></b>
+											<p>
+												Maintained JS SDK, built a rewards platform on on the Stellar network, built web wallet, worked on the Stellar and Ethereum service.
+												Technologies used include Django REST (Python), Stellar Network (XLM), Ethereum, React, React Native, PostgreSQL and GCloud.
+											</p>
+										</div>
+	
+									</div>
+
+							
+								<div class="image filtered tinted" data-position="top right">
+									<img src="images/pic03.jpg" alt="" />
+								</div>
+							</section>
+
+							<section class="panel spotlight large left">
+								<div class="content span-8">
+									<div>
+										<h3>
+											Freelance<br>
+											<small>2017 Sept - 2018 Feb</small>
+										</h3>
+										<b><i>Full stack developer</i></b>
+										<p>
+											Worked on numerous full stack web applications implemented video services and image editing.
+											Technologies used inlude React, React Native, Express (NodeJS), MongoDB, PostgreSQL, DigitalOcean.
+										</p>
+									</div>
+
+									<div>
+										<h3>
+											React Technology <br>
+											<small>2017 Jul - Sept</small>
+										</h3>
+										<b><i>Full stack developer</i></b>
+										<p>
+											Built numerous applications for clients, mobile apps, worked on a school payment platform and 
+											built promo sites for television and radio. Technologies used include Meteor, React, React Native,
+											MongoDB and Vultr (VPS).
+										</p>
+									</div>
+
+								</div>
+								<div class="image filtered tinted" data-position="top right">
+									<img src="images/pic03.jpg" alt="" />
+								</div>
+							</section>
+
+							<section class="panel spotlight large left">
+								<div class="content span-8">
+									<div>
+										<h3>
+											<a href="https://uber5.com/" target="_blank">Uber 5</a><br>
+											<small>2016 - 2017</small>
+										</h3>
+										<i>Full stack web developer</i>
+										<p>
+											Built various web applications for the Democratic Alliance election campaigns using React,
+											Redux, GraphQL, Meteor, Express, MongoDB and PostgreSQL
+										</p>
+									</div>
+
+									<div>
+										<h3>
+											<a href="http://www.projectcodex.co/" target='_blank'>Project CodeX</a> <br>
+											<small>2015</small>
+										</h3>
+										<i>Apprentice full stack web application developer</i>
+										<p>
+											Built an inventory management system for a spaza shop with Test Driven Development using Nodejs, Express, MySQL and
+											Handlebars templating engine deployed to DigitalOcean. 
+										</p>
+									</div>
+
+								</div>
+								<div class="image filtered tinted" data-position="top right">
+									<img src="images/pic03.jpg" alt="" />
+								</div>
+							</section>
+					</div>
+			</div>
+			<script src="./assets/js/jquery.min.js"></script>
+			<script src="./assets/js/browser.min.js"></script>
+			<script src="./assets/js/breakpoints.min.js"></script>
+			<script src="./assets/js/main.js"></script>
+	</body>
 </html>
